@@ -1,86 +1,82 @@
 import datetime
+import time
 
 tasks = []
 
 def add_task():
-    print("\n--- Add a New Task ---")
-    title = input("Task name: ")
-    deadline_str = input("Deadline (YYYY-MM-DD): ")
-
+    name = input("Task Name: ")
+    date_str = input("Deadline (YYYY-MM-DD): ")
     try:
-        deadline = datetime.datetime.strptime(deadline_str, "%Y-%m-%d").date()
+        clean_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+        tasks.append({"title": name, "date": clean_date, "completed": False})
+        print("Success.")
     except ValueError:
-        print("Invalid date format. Task not added.")
-        return
-    
-    task = {
-        "title": title,
-        "deadline": deadline,
-        "completed": False
-    }
-    tasks.append(task)
-    print("Task added successfully!")
+        print("Invalid date.")
 
 def view_tasks():
     if not tasks:
-        print("\nNo tasks yet.")
+        print("List empty.")
         return
+    for i, t in enumerate(tasks, 1):
+        status = "[X]" if t["completed"] else "[ ]"
+        print(f"{i}. {status} {t['title']} | {t['date']}")
 
-    print("\n--- Your Tasks ---")
-    for i, task in enumerate(tasks, start=1):
-        status = "Completed" if task["completed"] else "Not done"
-        print(f"{i}. {task['title']} | Deadline: {task['deadline']} | Status: {status}")
-
-def mark_completed():
+def mark_done():
     view_tasks()
-    if not tasks:
-        return
-
+    if not tasks: return
     try:
-        num = int(input("\nEnter task number to mark complete: "))
-        tasks[num - 1]["completed"] = True
-        print("Task marked as completed!")
-    except (ValueError, IndexError):
-        print("Invalid choice.")
+        index = int(input("Number: ")) - 1
+        if 0 <= index < len(tasks):
+            tasks[index]["completed"] = True
+            print("Updated.")
+        else:
+            print("Invalid number.")
+    except ValueError:
+        print("Enter a number.")
 
-def show_due_soon():
-    print("\n--- Tasks Due Soon (Next 3 Days) ---")
+def show_urgent():
     today = datetime.date.today()
     found = False
-
-    for task in tasks:
-        if 0 <= (task["deadline"] - today).days <= 3 and not task["completed"]:
-            print(f"- {task['title']} | Deadline: {task['deadline']}")
+    for t in tasks:
+        days_left = (t["date"] - today).days
+        if 0 <= days_left <= 3 and not t["completed"]:
+            print(f"URGENT: {t['title']} ({days_left} days left)")
             found = True
-    
     if not found:
-        print("No urgent tasks!")
+        print("Nothing urgent.")
 
-def main_menu():
-    while True:
-        print("\n-------------------------------------")
-        print("       PERSONAL ORGANIZER APP")
-        print("-------------------------------------")
-        print("1. Add Task")
-        print("2. View Tasks")
-        print("3. Mark Task as Completed")
-        print("4. Show Tasks Due Soon")
-        print("5. Exit")
-        
-        choice = input("Choose an option: ")
+def delete_task():
+    view_tasks()
+    if not tasks: return
+    try:
+        index = int(input("Number to delete: ")) - 1
+        if 0 <= index < len(tasks):
+            removed = tasks.pop(index)
+            print(f"Deleted {removed['title']}.")
+    except ValueError:
+        print("Enter a number.")
 
-        if choice == "1":
-            add_task()
-        elif choice == "2":
-            view_tasks()
-        elif choice == "3":
-            mark_completed()
-        elif choice == "4":
-            show_due_soon()
-        elif choice == "5":
-            print("Goodbye! Stay productive 🙂")
-            break
-        else:
-            print("Invalid input. Try again.")
+while True:
+    print("\n1. Add Task \n2. View Tasks \n3. Mark Task Done \n4. Urgent Tasks \n5. Delete Task \n6. Exit")
+    
+    choice = input("> ")
 
-main_menu()
+    if not choice:
+        time.sleep(0.1)
+        continue
+
+    if choice == "1": 
+        add_task()
+    elif choice == "2": 
+        view_tasks()
+    elif choice == "3": 
+        mark_done()
+    elif choice == "4": 
+        show_urgent()
+    elif choice == "5": 
+        delete_task()
+    elif choice == "6":
+        print("Goodbye!")
+        break
+    else: 
+        print("Invalid choice, try again.")
