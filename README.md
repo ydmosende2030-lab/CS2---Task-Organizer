@@ -15,6 +15,11 @@ Features
 - Delete tasks
 - Simple menu-driven interface
 
+Project Structure
+
+- src/: source code files
+- docs/: project documentation
+
 Technologies Used
 - Python
   - Built-in modules:
@@ -31,33 +36,40 @@ Notes: Tasks are not saved permanently. They reset when the program closes.
 
 Installation
 1. Clone the repository
-   git clone https://github.com/your-username/task-manager.git
+   - git clone https://github.com/your-username/task-manager.git
 2. Navigate to the Project Folder
-   cd task-manager
+   - cd task-manager
 3. Ensure Python is installed
-   python --version
+   - python --version
+
 ‎
-‎How to Run
+How to Run
+
 ‎1. Requirements
-‎   Python 3 installed
+   - Python 3 installed
+
 ‎2. Run the Program
-   ‎python task_manager.py
-   - If using Python 3:
-   python3 task_manager.py
+   - python task_manager.py
+     - If using Python 3:
+       - python3 task_manager.py
+
 ‎
 ‎Menu Options
-‎1. Add Task
-‎2. View Tasks
-‎3. Mark Task Done
-‎4. Urgent Tasks
-‎5. Delete Task
-‎6. Exit
+1. Add Task
+2. View Tasks
+3. Mark Task Done
+4. Urgent Tasks
+5. Delete Task
+6. Exit
+
 ‎
-‎Examples Usage
+‎Example Usage
+
 ‎
 ‎Task Name: Math Assignment
 ‎Deadline (YYYY-MM-DD): 2026-02-20
 ‎Success.
+
 ‎
 ‎URGENT: Math Assignment (2 days left)
 
