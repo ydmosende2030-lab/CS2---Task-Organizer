@@ -17,3 +17,10 @@ Design Decisions
     
 - User-Friendly Indexing: The app lets users type "1" for the first item (instead of "0") to 
 make it more natural for non-programmers.
+
+Ethical Considerations in Programming Choices
+
+-User Privacy: Information stored inside the program is only temporary and will not be recorded.
+
+-Accessibility: The software can be accessed and used by a variety of people, mostly those who find
+it difficult or troublesome to organize tasks by themselves.
