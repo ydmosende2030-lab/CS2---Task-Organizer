@@ -6,7 +6,7 @@ Commit Messages
 - The repository history shows a focused development period where the project was moved from a basic script to a fully documented repository. 
 We started the process by updating the main.py file to ensure the core task-organizer logic was functional and stable. Immediately after, we 
 created the initial README.md file to provide a basic introduction of the project. Once the introduction was set, we began building the 
-technical documentation by creating the Updated_Documentation.md file to list the specific features and functions of the app. 
+technical documentation by creating the Updated_Documentation.md file to list the specific features and functions of the app.
 
 The most active
 part of the development involved the project's methodology. We created the Methodology.md file to explain the coding logic, but we still had
