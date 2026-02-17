@@ -2,8 +2,8 @@ Task Manager
 ‎- A simple command-line task manager that helps users add tasks, track deadlines, mark tasks as completed, and identify urgent tasks.
 ‎
 Overview
-‎This program allows users to manage their tasks efficiently using a menu-driven interface.
-‎It is designed for students or anyone who wants a lightweight way to track deadlines directly in the terminal.
+
+- This program allows users to manage their tasks efficiently using a menu-driven interface. ‎It is designed for students or anyone who wants a lightweight way to track deadlines directly in the terminal.
 ‎
 ‎Features
 ‎- Add tasks with deadlines
