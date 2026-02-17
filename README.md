@@ -1,14 +1,11 @@
-Task Manager
+#Task Manager
+A simple command-line task manager that helps users add tasks, track deadlines, mark tasks as completed, and identify urgent tasks.
 
-- A simple command-line task manager that helps users add tasks, track deadlines, mark tasks as completed, and identify urgent tasks.
-
-Overview
-
-- This program allows users to manage their tasks efficiently using a menu-driven interface.
+##Overview
+This program allows users to manage their tasks efficiently using a menu-driven interface.
 It is designed for students or anyone who wants a lightweight way to track deadlines directly in the terminal.
 
-Features
-
+##Features
 - Add tasks with deadlines
 - View all tasks with completion status
 - Mark tasks as completed
@@ -16,27 +13,20 @@ Features
 - Delete tasks
 - Simple menu-driven interface
 
-Technologies Used
+##Technologies Used
 - Python
   - Built-in modules:
-    - datetime
-    - time
+    - 'datetime'
+    - 'time'
 
-How It Works
-
+##How It Works
 Tasks are stored in a list during program execution. Each task contains:
-
-Title
-
-Deadline
-
-Completion status
-
-Note
-
+- Title
+- Deadline
+- Completion status
 Notes: Tasks are not saved permanently. They reset when the program closes.
 
-Installation
+##Installation
 1. Clone the repository
    git clone https://github.com/your-username/task-manager.git
 2. Navigate to the Project Folder
@@ -76,6 +66,6 @@ Current Progress
 - Menu-driven CLI interface completed
 ‎
 ‎Contributors:
-‎Felmarie Grace M. Wamar
-‎Ysabel D. Mosende
-‎Vale
+- ‎Felmarie Grace M. Wamar
+- ‎Ysabel D. Mosende
+- ‎Vale
