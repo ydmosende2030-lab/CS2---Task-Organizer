@@ -1,11 +1,9 @@
-ANNOTED GITHUB REPOSITORY
-
 File Structure
-  main.py (the entry point)
-  RAEDME.md & Project Journal (the documentation)
+  - main.py (the entry point)
+  - RAEDME.md & Project Journal (the documentation)
 
 Commit Messages
-  The repository history shows a focused development period where the project was moved from a basic script to a fully documented repository. 
+  - The repository history shows a focused development period where the project was moved from a basic script to a fully documented repository. 
 We started the process by updating the main.py file to ensure the core task-organizer logic was functional and stable. Immediately after, we 
 created the initial README.md file to provide a basic introduction of the project. Once the introduction was set, we began building the technical 
 documentation by creating the Updated_Documentation.md file to list the specific features and functions of the app. 
