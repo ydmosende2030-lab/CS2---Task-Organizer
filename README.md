@@ -66,6 +66,7 @@ Current Progress
 - Deadline tracking and urgent task detection working
 - Task completion and deletion features functional
 - Menu-driven CLI interface completed
+
 ‎
 ‎Contributors:
 - ‎Felmarie Grace M. Wamar
