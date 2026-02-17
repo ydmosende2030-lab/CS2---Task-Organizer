@@ -83,4 +83,4 @@ Current Progress
 ‎Contributors:
 - ‎Felmarie Grace M. Wamar
 - ‎Ysabel D. Mosende
-- ‎Vale
+- ‎Valerik Balagulan
