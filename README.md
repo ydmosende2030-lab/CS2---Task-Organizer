@@ -36,9 +36,9 @@ Notes: Tasks are not saved permanently. They reset when the program closes.
 
 Installation
 1. Clone the repository
-   - git clone https://github.com/your-username/task-manager.git
+   - git clone https://github.com/your-username/task-palette.git
 2. Navigate to the Project Folder
-   - cd task-manager
+   - cd task-palette
 3. Ensure Python is installed
    - python --version
 
@@ -49,7 +49,7 @@ How to Run
    - Python 3 installed
 
 ‎2. Run the Program
-   - python task_manager.py
+   - python task_palette.py
      - If using Python 3:
        - python3 task_manager.py
 
