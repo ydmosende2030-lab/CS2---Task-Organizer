@@ -1,4 +1,4 @@
-Task Manager
+Task Palette
 
 A simple command-line task manager that helps users add tasks, track deadlines, mark tasks as completed, and identify urgent tasks.
 
