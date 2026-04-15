@@ -36,7 +36,7 @@ Notes: Tasks are not saved permanently. They reset when the program closes.
 
 Installation
 1. Clone the repository
-   - git clone https://github.com/your-username/task-palette.git
+   - git clone https://github.com/ydmosende2030-lab/CS2---Task-Organizer
 2. Navigate to the Project Folder
    - cd task-palette
 3. Ensure Python is installed
