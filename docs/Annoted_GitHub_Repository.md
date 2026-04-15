@@ -1,6 +1,6 @@
 File Structure
 - main.py (the entry point)
-- RAEDME.md & Project Journal (the documentation)
+- README.md & Project Journal (the documentation)
 
 Commit Messages
 - The repository history shows a focused development period where the project was moved from a basic script to a fully documented repository. 
