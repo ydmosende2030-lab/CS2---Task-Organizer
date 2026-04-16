@@ -51,33 +51,10 @@ How to Run
 ‎2. Run the Program
    - python task_palette.py
      - If using Python 3:
-       - python3 task_manager.py
+       - python3 task_palette.py
 
 ‎
-‎Menu Options
-1. Add Task
-2. View Tasks
-3. Mark Task Done
-4. Urgent Tasks
-5. Delete Task
-6. Exit
 
-‎
-‎Example Usage
-
-‎
-‎Task Name: Math Assignment
-‎Deadline (YYYY-MM-DD): 2026-02-20
-‎Success.
-
-‎
-‎URGENT: Math Assignment (2 days left)
-
-Current Progress
-- Core task management system implemented
-- Deadline tracking and urgent task detection working
-- Task completion and deletion features functional
-- Menu-driven CLI interface completed
 
 ‎
 ‎Contributors:
