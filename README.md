@@ -8,12 +8,13 @@ Students often struggle with managing multiple assignments and identifying which
 
 
 Features
-- Add tasks with deadlines
+- Add tasks with deadlines (DD/MM/YYYY)
 - View all tasks with completion status
 - Mark tasks as completed
-- Show urgent tasks (due within 3 days)
+- Show urgent tasks though classificationa and color coding
 - Delete tasks
-- Simple menu-driven interface
+- Changeable Background Color
+- GUI interface
 
 Project Structure
 
@@ -32,7 +33,7 @@ Tasks are stored in a list during program execution. Each task contains:
 - Title
 - Deadline
 - Completion status
-Notes: Tasks are not saved permanently. They reset when the program closes.
+- Urgency status
 
 Installation
 1. Clone the repository
@@ -54,8 +55,6 @@ How to Run
        - python3 task_palette.py
 
 ‎
-
-
 ‎
 ‎Contributors:
 - ‎Felmarie Grace M. Wamar
