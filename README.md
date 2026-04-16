@@ -1,11 +1,11 @@
 Task Palette
 
-A simple command-line task manager that helps users add tasks, track deadlines, mark tasks as completed, and identify urgent tasks.
+A simple and user-friendly task management application designed to help students organize, prioritize, and track their assignments efficiently.
 
 Overview
 
-This program allows users to manage their tasks efficiently using a menu-driven interface.
-It is designed for students or anyone who wants a lightweight way to track deadlines directly in the terminal.
+Students often struggle with managing multiple assignments and identifying which tasks are most urgent. Traditional task lists can be confusing and prone to errors, leading to missed deadlines and increased stress. This project can solve this by providing; a clear, color-coded system for priorities, a safe and structured task list, and an easy way to track deadlines and progress.
+
 
 Features
 - Add tasks with deadlines
