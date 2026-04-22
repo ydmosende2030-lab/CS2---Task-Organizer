@@ -41,7 +41,7 @@ Tasks are stored in a list during program execution. Each task contains:
 
 Installation
 1. Clone the repository
-   - git clone https://github.com/ydmosende2030-lab/CS2---Task-Organizer
+   - git clone https://github.com/ydmosende2030-lab/CS2---Task-Palette
 2. Navigate to the Project Folder
    - cd task-palette
 3. Ensure Python is installed
