@@ -63,4 +63,4 @@ How to Run
 ‎Contributors:
 - ‎Felmarie Grace M. Wamar
 - ‎Ysabel D. Mosende
-- ‎Valerik Balagulan
+- ‎Valerik Natan A. Balagulan
