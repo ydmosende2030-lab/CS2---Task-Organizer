@@ -26,6 +26,10 @@ Technologies Used
   - Built-in modules:
     - 'datetime'
     - 'time'
+    - 'tkinter'
+    - 'messagebox'
+    - 'colorchooser'
+    - 'json'
 
 How It Works
 
